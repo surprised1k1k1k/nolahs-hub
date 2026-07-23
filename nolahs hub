@@ -13,5 +13,5 @@ elseif placeId == 91695551099066 then
     loadstring(game:HttpGet("https://pastefy.app/gSGZgDln/raw"))()
 
 else
-    warn("❌ 이 게임은 지원되지 않습니다. PlaceId: " .. placeId)
+    warn("❌ 이 게임은 지원되지 않습니다. PlaceId: " .. tostring(placeId))
 end
