@@ -1,17 +1,17 @@
-local placeId = game.PlaceId
+local placeId = tostring(game.PlaceId)
 
-if placeId == 139083049292788 then
+if placeId == "139083049292788" then
     -- 1 Speed Korean Keyboard Escape
     loadstring(game:HttpGet('https://raw.githubusercontent.com/surprised1k1k1k/-1-Speed-Korean-Keyboard-Escape/refs/heads/main/%2B1%20Speed%20Korean%20Keyboard%20Escape'))()
 
-elseif placeId == 96947338677734 or placeId == 113900430381305 then
+elseif placeId == "96947338677734" or placeId == "113900430381305" then
     -- 1 Speed Slime Keyboard Escape
     loadstring(game:HttpGet("https://raw.githubusercontent.com/surprised1k1k1k/1-Speed-Slime-Keyboard-Escape/refs/heads/main/1-Speed-Slime-Keyboard-Escape"))()
 
-elseif placeId == 91695551099066 then
+elseif placeId == "91695551099066" then
     -- 1Steap (Steap)
     loadstring(game:HttpGet("https://pastefy.app/gSGZgDln/raw"))()
 
 else
-    warn("❌ 이 게임은 지원되지 않습니다. PlaceId: " .. tostring(placeId))
+    warn("❌ 이 게임은 지원되지 않습니다. PlaceId: " .. placeId)
 end
