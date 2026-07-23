@@ -10,7 +10,7 @@ elseif placeId == 96947338677734 then
 
 elseif placeId == 91695551099066 then
     -- 1Steap (Steap)
-    loadstring(game:HttpGet("http://github.com/surprised1k1k1k/1Steap/blob/main/Steap"))()
+    loadstring(game:HttpGet("https://pastefy.app/gSGZgDln/raw"))(true)
 
 else
     warn(":x: 이 게임은 지원되지 않습니다. PlaceId:", placeId)
